@@ -1,0 +1,22 @@
+$Grayish-Blue: hsl(237, 18%, 59%);
+$Soft-Red: hsl(345, 95%, 68%);
+$White: hsl(0, 0%, 100%);
+$Dark-Desaturated-Blue: hsl(236, 21%, 26%);
+$Dark-Blue: hsl(235, 16%, 14%);
+$Very-Dark-Blue: hsl(234, 17%, 12%);
+$Red-Hat-Text: "Red Hat Text", san-serif;
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+@media (max-width: 500px) {
+  .countdown {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    width: 75%;
+  }
+}

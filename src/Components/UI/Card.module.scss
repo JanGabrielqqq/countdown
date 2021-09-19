@@ -1,0 +1,82 @@
+$Grayish-Blue: hsl(237, 18%, 59%);
+$Soft-Red: hsl(345, 95%, 68%);
+$White: hsl(0, 0%, 100%);
+$Dark-Desaturated-Blue: hsl(236, 21%, 26%);
+$Dark-Blue: hsl(235, 16%, 14%);
+$Very-Dark-Blue: hsl(234, 17%, 12%);
+$Red-Hat-Text: "Red Hat Text", san-serif;
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  margin: 10px 50px;
+  align-items: center;
+  justify-content: center;
+
+  .lefthalfcircle {
+    position: absolute;
+    top: 45px;
+    right: 95px;
+    width: 5px;
+    height: 10px;
+    border: 1px;
+    background-color: hsl(237, 23%, 16%);
+    border-radius: 0 20px 20px 0;
+  }
+  .righthalfcircle {
+    position: absolute;
+    top: 45px;
+    left: 95px;
+    width: 5px;
+    height: 10px;
+    border: 1px;
+    background-color: hsl(237, 23%, 16%);
+    border-radius: 20px 0 0 20px;
+  }
+
+  .topdiv {
+    width: 100px;
+    height: 50px;
+    transform-origin: bottom;
+    transition-duration: 0.2s;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 1px black;
+    background-color: hsl(236, 21%, 26%);
+  }
+  .halfbotdiv {
+    width: 100px;
+    height: 50px;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 10px 2px black;
+    background-color: hsl(237, 21%, 34%);
+  }
+}
+
+p {
+  color: $Grayish-Blue;
+  font-size: 10px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 25px;
+  font-family: $Red-Hat-Text;
+}
+h1 {
+  padding: 15px 0;
+  margin: 0;
+  text-align: center;
+  color: hsl(345, 95%, 68%);
+  font-size: 50px;
+  font-family: $Red-Hat-Text;
+}
+
+@media (max-width: 500px) {
+  .card {
+    margin: 10px;
+  }
+}

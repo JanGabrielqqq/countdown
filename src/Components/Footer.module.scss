@@ -1,0 +1,27 @@
+$Grayish-Blue: hsl(237, 18%, 59%);
+$Soft-Red: hsl(345, 95%, 68%);
+$White: hsl(0, 0%, 100%);
+$Dark-Desaturated-Blue: hsl(236, 21%, 26%);
+$Dark-Blue: hsl(235, 16%, 14%);
+$Very-Dark-Blue: hsl(234, 17%, 12%);
+$Red-Hat-Text: "Red Hat Text", san-serif;
+
+.attribution {
+  font-size: 11px;
+  color: $Grayish-Blue;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+
+  bottom: 0%;
+  margin: 10px auto;
+}

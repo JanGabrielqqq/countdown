@@ -1,0 +1,19 @@
+$Grayish-Blue: hsl(237, 18%, 59%);
+$Soft-Red: hsl(345, 95%, 68%);
+$White: hsl(0, 0%, 100%);
+$Dark-Desaturated-Blue: hsl(236, 21%, 26%);
+$Dark-Blue: hsl(235, 16%, 14%);
+$Very-Dark-Blue: hsl(234, 17%, 12%);
+$Red-Hat-Text: "Red Hat Text", san-serif;
+
+.LapHistoryData {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: rgb(51, 51, 51);
+  background-color: rgba(180, 180, 180, 0.801);
+  border-radius: 10px;
+  margin: 3px 0;
+}

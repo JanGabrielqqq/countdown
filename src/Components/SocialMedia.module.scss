@@ -1,0 +1,38 @@
+$Grayish-Blue: hsl(237, 18%, 59%);
+$Soft-Red: hsl(345, 95%, 68%);
+$White: hsl(0, 0%, 100%);
+$Dark-Desaturated-Blue: hsl(236, 21%, 26%);
+$Dark-Blue: hsl(235, 16%, 14%);
+$Very-Dark-Blue: hsl(234, 17%, 12%);
+$Red-Hat-Text: "Red Hat Text", san-serif;
+
+.imgStars {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+}
+
+.imgHills {
+  position: fixed;
+  bottom: 0%;
+  right: 0%;
+  width: 100%;
+  z-index: -1;
+}
+
+.socIcon {
+  position: relative;
+
+  width: 110px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+
+  :hover {
+    cursor: pointer;
+    transform: scale(1.1);
+  }
+}

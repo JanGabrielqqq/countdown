@@ -1,0 +1,38 @@
+$Grayish-Blue: hsl(237, 18%, 59%);
+$Soft-Red: hsl(345, 95%, 68%);
+$White: hsl(0, 0%, 100%);
+$Dark-Desaturated-Blue: hsl(236, 21%, 26%);
+$Dark-Blue: hsl(235, 16%, 14%);
+$Very-Dark-Blue: hsl(234, 17%, 12%);
+$Red-Hat-Text: "Red Hat Text", san-serif;
+
+.button {
+  width: auto;
+  min-width: 100px;
+  margin: 20px auto;
+  background-color: $Dark-Desaturated-Blue;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  color: white;
+}
+
+.button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.button:disabled {
+  background-color: grey;
+  color: rgb(83, 83, 83);
+}
+.button:disabled:hover {
+  transform: none;
+  cursor: default;
+}
+
+@media (max-width: 500px) {
+  .button {
+    margin: 5px auto;
+    width: 90%;
+  }
+}
