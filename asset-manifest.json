@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/countdown/static/css/main.3ed31c54.chunk.css",
+    "main.js": "/countdown/static/js/main.2f4e083b.chunk.js",
+    "main.js.map": "/countdown/static/js/main.2f4e083b.chunk.js.map",
+    "runtime-main.js": "/countdown/static/js/runtime-main.8e7b45f4.js",
+    "runtime-main.js.map": "/countdown/static/js/runtime-main.8e7b45f4.js.map",
+    "static/js/2.06af8b9a.chunk.js": "/countdown/static/js/2.06af8b9a.chunk.js",
+    "static/js/2.06af8b9a.chunk.js.map": "/countdown/static/js/2.06af8b9a.chunk.js.map",
+    "index.html": "/countdown/index.html",
+    "static/css/main.3ed31c54.chunk.css.map": "/countdown/static/css/main.3ed31c54.chunk.css.map",
+    "static/js/2.06af8b9a.chunk.js.LICENSE.txt": "/countdown/static/js/2.06af8b9a.chunk.js.LICENSE.txt",
+    "static/media/bg-stars.166881a1.svg": "/countdown/static/media/bg-stars.166881a1.svg",
+    "static/media/icon-facebook.a9208377.svg": "/countdown/static/media/icon-facebook.a9208377.svg",
+    "static/media/icon-instagram.b94ff26a.svg": "/countdown/static/media/icon-instagram.b94ff26a.svg",
+    "static/media/icon-pinterest.ea0db8e7.svg": "/countdown/static/media/icon-pinterest.ea0db8e7.svg",
+    "static/media/pattern-hills.815d688f.svg": "/countdown/static/media/pattern-hills.815d688f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8e7b45f4.js",
+    "static/js/2.06af8b9a.chunk.js",
+    "static/css/main.3ed31c54.chunk.css",
+    "static/js/main.2f4e083b.chunk.js"
+  ]
+}
